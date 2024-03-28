@@ -1,0 +1,9 @@
+version: "3"
+services:
+  gradio_app:
+    stdin_open: true
+    tty: true
+    ports:
+      - 80:80
+      
+    image: gradio_app:latest
